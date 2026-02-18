@@ -1,0 +1,35 @@
+# OS files
+.DS_Store
+Thumbs.db
+.gitignore.swp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Node/npm (если будет веб-интеграция)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python (если будет скрипты)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Временные файлы
+*.tmp
+*.log
+.env
+.env.local
+
+# Папки для экспериментов (не коммитим)
+/experimental/
+/drafts/
+/tmp/
